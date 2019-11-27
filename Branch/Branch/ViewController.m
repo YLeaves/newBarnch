@@ -22,6 +22,7 @@
 
     [self prepareUI];
     [self branchUI];
+    //发布一个版本
 }
 
 -(void)prepareUI{
