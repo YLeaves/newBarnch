@@ -21,11 +21,20 @@
     self.view.backgroundColor = [UIColor whiteColor];
 
     [self prepareUI];
+    [self branchUI];
 }
 
 -(void)prepareUI{
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(20, 100, 60, 20)];
     label.text = @"主分支";
+    label.textColor = [UIColor redColor];
+    label.font = [UIFont systemFontOfSize:15];
+    [self.view addSubview:label];
+}
+
+-(void)branchUI{
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(20, 100, 60, 20)];
+    label.text = @"分支";
     label.textColor = [UIColor redColor];
     label.font = [UIFont systemFontOfSize:15];
     [self.view addSubview:label];
