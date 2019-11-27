@@ -44,4 +44,8 @@
     NSLog(@"开发注册功能");
 }
 
+-(void)developHome{
+    NSLog(@"开发首页功能");
+}
+
 @end
