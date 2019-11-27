@@ -40,4 +40,8 @@
     [self.view addSubview:label];
 }
 
+-(void)developLogin{
+    NSLog(@"开发注册功能");
+}
+
 @end
